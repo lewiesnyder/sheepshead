@@ -1,3 +1,28 @@
+# Sheepshead
+
+This repo was generated entirely by Claude Code. It took about 15 minutes and cost about $2.00 in token usage.
+
+THe prompt given to Claude in an empty folder was:
+```
+Let's create a new app. I would like to create a nextjs app for a human to
+  play sheepshead against 1-7 "AI" players. For now it will be only a single
+  human player, let's stub out the ability to connect to a server for
+  additional humans to be able to play togeher. For this first version, let's
+  store the stats (wins, losses, no-tricks, num leasters, etc) in local
+  storage in the browser. I'd like the UI to look like a card table, have some
+   avatars for the players and images of cards.
+```
+When Claude Code asked for permission to perform a task: run a command in the terminal (create dirs,install dependencies, run the app, etc) or create/update a file, I said yes.
+
+## Player selection
+![Start Game](/images/start-game.png)
+
+## 5 handed game
+![5 handed game](/images/5-handed.png)
+
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
